@@ -229,11 +229,11 @@ export function buildColorPicker(
         fontStrikethroughModel,
       }),
       dom.create(PickerComponent, textColorModel, {
-        title: t("text"),
+        title: "text",
         ...textColor,
       }),
       dom.create(PickerComponent, fillColorModel, {
-        title: t("fill"),
+        title: "fill",
         ...fillColor,
       }),
     ),
